@@ -1,0 +1,6 @@
+@media screen and (max-width: 320px) {
+    .entry-title {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+})
