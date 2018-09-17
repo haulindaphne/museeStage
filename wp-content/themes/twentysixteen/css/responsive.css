@@ -3,4 +3,40 @@
         font-size: 30px;
         padding-top: 20px;
     }
+    .title-expos, #itinerantes {
+        margin-top: -100px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.35px;
+        text-align: center;
+        opacity: 0.9;
+    }
+    .title-expos-musee {
+        margin-top: -100px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.35px;
+        opacity: 0.9;
+    }
+    .col-md-12 {
+        margin-top: 25px;
+        width: 100%;
+    }
+    .linkToMusee {
+        width: 50%;
+        float: left;
+        text-align: center;
+        text-decoration-style: none;
+    }
+    .linkToMusee a, .searchMore a {
+        box-shadow: inherit;
+    }
+    .linkToMusee:hover {
+        font-weight: 700;
+    }
+
+    #nikonGallery {
+        opacity: 0.7;
+    }
 })

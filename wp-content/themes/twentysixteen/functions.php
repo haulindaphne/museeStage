@@ -273,7 +273,8 @@ function twentysixteen_scripts() {
 	wp_enqueue_style( 'footer', get_template_directory_uri() . '/css/footer.css',false,'1.1','all');
 	// Add by Haulin D. - Add a specific css for header.php
 	wp_enqueue_style ( 'headerperso', get_template_directory_uri() . '/css/headerperso.css',false,'1.1','all');
-
+	// Add by Haulin D. - Add a specific scc for the contactform plugin
+	wp_enqueue_style (' contactform', get_template_directory_uri() . '/css/contactform.css',false,'1.1','all');
 	// Add by Haulin D. - Add the bootstrap template for more responsivity
 	wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri() . '/bootstrap/js/bootstrap.min.js', array( 'jquery' ), null, true );
 
